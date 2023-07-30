@@ -1,0 +1,116 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have  <span class='underline'>1 year of experience</span> developing REST API's using ASP.NET Core API & MVC, Angular to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and  <span class='underline'>ASP.NET</span> applying good practices and development standards.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "Hello I am  a passionate <span class='underline'>Full Stack .NET developer</span>, I have a 1 year of Work Experience . I  do Frontend development using <span class='underline'>Angular </span>, and covering backend developer roles with <span class='underline'>ASP.NET Core MVC & API</span>. I am Passionate about  Collaborating with Teams.",
+        "My skills also include implementing Clean,Robust,Reusable and High Quality Code.",
+        "Some of the technologies that I have learnt and worked on include: HTML,CSS,Javascript,Typescript,Angular,ASP.NET Core MVC & API,SQL Server, Git,Github,Bootstrap,Material UI,Scrum,REST API,Postman,Visual Studio,Visual Studio Code,SQL S"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [{
+            "Tab": "Feedough ",
+            "Title": "Fullstack Javascript developer",
+            "Date": "March 2022 - June 2022",
+            "Description": [
+              "Creation and Implementation of features to detect Plagarism  and Trending topic for blogging.",
+              "Creation of automated text generation for specified topic name using AI.",
+              "Collaborated with the Team of Developers to write clean and robust code.",
+              "Planning and implementing features according to the product team.",
+              "Tech Stack: Angular,HTML,CSS, Node ,MongoDb, Git,Github,"
+            ]
+        },
+        {
+            "Tab":"Creator's Lab",
+            "Title": "Data Science & Machine Learning Intern",
+            "Date": "July 2023 - Present",
+            "Description":[
+                "Learning and Implementing Data Science and Machine Learning Algorithms.",
+                "Creating and Implementing Machine Learning Models.",
+                "Creating and Implementing Data Science Projects.",
+                "Learning Skills Like : Python,Numpy,Pandas and Joblib"
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "CryptoSteller",
+            "Description": "A Crypto Currency app , <span class='underline'>with realtime weather by city names</span>. It tracks realtime crypto currency prices and their exchange rates with USD .",
+            "imgs": [
+                "assets/images/cryptosteller-weather.png",
+                "assets/images/cryptostelller-news.png",
+                "assets/images/cryptostelller-prices.png"
+            ],
+            "Technologies": ["Html", "Angular", "CSS", "Angular Material", "RxJS","Bootstrap"]
+        }
+      
+        
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Pokemon",
+            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
+            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
+            "demoLink": "https://projects.andresjosehr.com/pokemon-list",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        },
+        {
+            "Title": "Coming soon page",
+            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+            "ghLink": "https://github.com/andresjosehr/coming-soon-page",
+            "demoLink": "https://projects.andresjosehr.com/coming-soon-page",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Four card feature section",
+            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+            "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
+            "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Social proof section",
+            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
+            "ghLink": "https://github.com/andresjosehr/social-proof-section",
+            "demoLink": "https://projects.andresjosehr.com/social-proof-section",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "FAQ accordion card",
+            "Description": "FAQ accordion with logic and animations made in Angular.",
+            "ghLink": "https://github.com/andresjosehr/faq-accordion",
+            "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
+            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+        },
+        {
+            "Title": "Profile card",
+            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+            "ghLink": "https://github.com/andresjosehr/profile-card-component",
+            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
+            "Technologies": ["Angular", "SASS", "GIT"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}
