@@ -42,6 +42,18 @@
                 "Creating and Implementing Data Science Projects.",
                 "Learning Skills Like : Python,Numpy,Pandas and Joblib"
             ]
+        },
+        {
+            "Tab":"SSK TechMetrics",
+            "Title": "Fullstack .Net developer",
+            "Date": "January 2022 - Present",
+            "Description":[
+                "Collaborated with senior developers to design and implement responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.",
+
+                "Developed efficient and maintainable back-end components using C# and the .NET framework, ensuring seamless integration with front-end functionalities.",
+                "Actively participated in code reviews, providing constructive feedback and implementing suggested improvements to enhance the overall code quality.",
+                "Contributed to the development of RESTful APIs to facilitate smooth communication between the front-end and back-end systems."
+            ]
         }
     ],
 

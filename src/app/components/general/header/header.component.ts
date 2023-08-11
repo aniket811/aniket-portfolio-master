@@ -6,6 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { FormControl } from '@angular/forms';
 import { LanguageService } from 'src/app/services/language/language.service';
 import { ThisReceiver } from '@angular/compiler';
+import { HttpClient } from '@angular/common/http';
 
 
 @Component({
@@ -40,7 +41,8 @@ export class HeaderComponent implements OnInit {
   constructor(
     private router: Router,
     public analyticsService: AnalyticsService,
-    public languageService: LanguageService
+    public languageService: LanguageService,
+    private http:HttpClient
   ) { }
 
   ngOnInit(): void {
@@ -48,6 +50,11 @@ export class HeaderComponent implements OnInit {
     this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val))
 
     this.languageFormControl.setValue(this.languageService.language)
+
+  }
+  getResume(){
+    debugger;
+    this.http.get("https://drive.google.com/uc?export=download&id=1_dcqrcYVhYDe3j5vwT_VvARtl0it51FC");
 
   }
 
