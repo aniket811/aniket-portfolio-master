@@ -32,7 +32,7 @@ import { HttpClient } from '@angular/common/http';
 
 
 export class HeaderComponent implements OnInit {
-
+  resumeUrl="https://drive.google.com/file/d/1pckuKvMh2VQLYafPAAxZzaDHo_yMGFst/view?usp=drive_link"
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
@@ -54,8 +54,7 @@ export class HeaderComponent implements OnInit {
   }
   getResume(){
     debugger;
-    this.http.get("https://drive.google.com/uc?export=download&id=1_dcqrcYVhYDe3j5vwT_VvARtl0it51FC");
-
+    this.http.get("https://drive.google.com/uc?export=download&id=1pckuKvMh2VQLYafPAAxZzaDHo_yMGFst");
   }
 
   scroll(el) {
@@ -66,19 +65,26 @@ export class HeaderComponent implements OnInit {
     }
     this.responsiveMenuVisible=false;
   }
+  downloadResume(){
+    debugger;
+   let  resumeUrl="https://drive.google.com/uc?export=download&id=1pckuKvMh2VQLYafPAAxZzaDHo_yMGFst";
+    this.http.get(resumeUrl,{
+      responseType:'arraybuffer'
+    }).subscribe((data:any)=>{
+      const blob=new Blob([data],{type:"application/pdf"})
+      const url = window.URL.createObjectURL(blob);
 
-  downloadCV(){
-    this.languageService.translateService.get("Header.cvName").subscribe(val => {
-      this.cvName = val
-      console.log(val)
-      // app url
-      let url = window.location.href;
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Aniket_Joshi.pdf'; // Specify the file name for download
+        document.body.appendChild(a);
+        a.click();
 
-      // Open a new window with the CV
-      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
     })
-
-  }
+} 
+  
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])
     getScrollPosition(event) {
