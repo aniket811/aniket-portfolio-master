@@ -5,7 +5,7 @@
     "Header.Item3" : "Projects",
     "Header.Item4" : "Contact",
     "Header.cvBtn" : "Resume",
-    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
+    "Header.cvName": "Aniket_Joshi_FullStack_Net_Developer.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
     "Banner.Description": "I have  <span class='underline'>1 year of experience</span> developing REST API's using ASP.NET Core API & MVC, Angular to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and  <span class='underline'>ASP.NET</span> applying good practices and development standards.",
@@ -55,7 +55,7 @@
                 "assets/images/cryptostelller-news.png",
                 "assets/images/cryptostelller-prices.png"
             ],
-            "Technologies": ["Html", "Angular", "CSS", "Angular Material", "RxJS","Bootstrap"]
+            "Technologies": ["Html", "Angular", "Asp.Net API","CSS", "Angular Material", "RxJS","Bootstrap"]
         }
       
         
@@ -65,51 +65,24 @@
 
     "OtherProjects.Title": "More projects",
     "OtherProjects.Projects": [{
-            "Title": "Pokemon",
-            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
-            "ghLink": "https://github.com/andresjosehr/pokemon-angular",
-            "demoLink": "https://projects.andresjosehr.com/pokemon-list",
-            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+            "Title": "ECourtFlow",
+            "Description": "ECourtflow is a dynamic judiciary management system for both advocates and judges to reduce unncessary delay from hearing and smooth delievering of justice.",
+            "ghLink": "https://github.com/aniket811/eCourtFlow.git",
+            "demoLink": "https://hackathon-n2ci.vercel.app/",
+            "Technologies": ["Angular","Angular Material", "RxJs", "API", "Bootstrap","Node JS","Mongo DB"]
         },
         {
-            "Title": "Coming soon page",
-            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
-            "ghLink": "https://github.com/andresjosehr/coming-soon-page",
-            "demoLink": "https://projects.andresjosehr.com/coming-soon-page",
-            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
-        },
-        {
-            "Title": "Four card feature section",
-            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
-            "ghLink": "https://github.com/andresjosehr/fourd-card-feature-section",
-            "demoLink": "https://projects.andresjosehr.com/four-card-feature-section",
-            "Technologies": ["Angular", "SASS", "CSS GRID"]
-        },
-        {
-            "Title": "Social proof section",
-            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
-            "ghLink": "https://github.com/andresjosehr/social-proof-section",
-            "demoLink": "https://projects.andresjosehr.com/social-proof-section",
-            "Technologies": ["Angular", "CSS GRID", "GIT"]
-        },
-        {
-            "Title": "FAQ accordion card",
-            "Description": "FAQ accordion with logic and animations made in Angular.",
-            "ghLink": "https://github.com/andresjosehr/faq-accordion",
-            "demoLink": "https://proyectos.andresjosehr.com/faq-accordion",
-            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
-        },
-        {
-            "Title": "Profile card",
-            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
-            "ghLink": "https://github.com/andresjosehr/profile-card-component",
-            "demoLink": "https://proyectos.andresjosehr.com/profile-card-component",
-            "Technologies": ["Angular", "SASS", "GIT"]
+            "Title": "SocialShare",
+            "Description": "The platform fosters a collaborative environment where the collective knowledge of the community can be leveraged to troubleshoot and overcome coding challenges.             ",
+            "ghLink": "https://github.com/aniket811/socialshare",
+            "demoLink": "https://socialshare-29eab.web.app/",
+            "Technologies": ["Angular","Firebase","Firestore", "SASS", "CSS GRID", "Reactive form"]
         }
+    
     ],
     "Contact.Pretitle": "What’s Next",
     "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. ",
     "Contact.Btn": "Say Hello"
 
 

@@ -53,8 +53,19 @@ export class HeaderComponent implements OnInit {
 
   }
   getResume(){
-    debugger;
     this.http.get("https://drive.google.com/uc?export=download&id=1pckuKvMh2VQLYafPAAxZzaDHo_yMGFst");
+  }
+  downloadCV(){
+    this.languageService.translateService.get("Header.cvName").subscribe(val => {
+      this.cvName = val
+      console.log(val)
+      // app url
+      let url = window.location.href;
+
+      // Open a new window with the CV
+      window.open(url + "/../assets/cv/" + this.cvName, "_blank");
+    })
+
   }
 
   scroll(el) {
@@ -66,7 +77,6 @@ export class HeaderComponent implements OnInit {
     this.responsiveMenuVisible=false;
   }
   downloadResume(){
-    debugger;
    let  resumeUrl="https://drive.google.com/uc?export=download&id=1pckuKvMh2VQLYafPAAxZzaDHo_yMGFst";
     this.http.get(resumeUrl,{
       responseType:'arraybuffer'

@@ -21,7 +21,7 @@
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem>
-                <a ngbNavLink [href]="resumeUrl" class="main-btn cv-btn" ngbNavLink>
+                <a ngbNavLink (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
                     Resume
                 </a>
             </li>
