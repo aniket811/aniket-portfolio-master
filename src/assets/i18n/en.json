@@ -81,13 +81,13 @@
         },
         {
             "Title": "ECourtFlow",
-            "Description": "A Differentiated Case Flow Management (DCM) system designed to streamline and optimize legal workflows. It provides tailored dashboards for administrators, clerks, and judges to enhance operational efficiency within legal institutions.",
+            "Description": "A <span class='underline'> Differentiated Case Flow Management (DCM) </span>  system designed to streamline and optimize legal workflows. It provides tailored dashboards for administrators, clerks, and judges to enhance operational efficiency within legal institutions.",
             "imgs": [
-                "assets/images/cryptosteller-weather.png",
-                "assets/images/cryptostelller-news.png",
-                "assets/images/cryptostelller-prices.png"
+                "assets/images/ecourtflow-homepage.png",
+                "assets/images/ecourtflow-types.png",
+                "assets/images/ecourtflow-faqs.png"
             ],
-            "Technologies": ["Html", "Angular", "Asp.Net API","CSS", "Angular Material", "RxJS","Bootstrap"] 
+            "Technologies": ["Html", "Angular", "Node JS","CSS", "Angular Material", "Firebase","MongoDB"] 
         } 
       
         
@@ -106,7 +106,7 @@
         {
             "Title": "SocialShare",
             "Description": "The platform fosters a collaborative environment where the collective knowledge of the community can be leveraged to troubleshoot and overcome coding challenges.             ",
-            "ghLink": "https://github.com/aniket811/socialshare",
+            "ghLink": "https://github.com/aniket811/socialshare.git",
             "demoLink": "https://socialshare-29eab.web.app/",
             "Technologies": ["Angular","Firebase","Firestore", "SASS", "CSS GRID", "Reactive form"]
         }
