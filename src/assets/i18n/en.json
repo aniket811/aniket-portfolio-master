@@ -8,20 +8,52 @@
     "Header.cvName": "Aniket_Joshi_FullStack_Net_Developer.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have  <span class='underline'>1 year of experience</span> developing REST API's using ASP.NET Core API & MVC, Angular to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and  <span class='underline'>ASP.NET</span> applying good practices and development standards.",
+    "Banner.Description": "I have  <span class='underline'>1.5 years of experience</span> in  developing REST API's using ASP.NET Core API & MVC, Angular to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and  <span class='underline'>ASP.NET</span> applying good practices and development standards.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
-    "AboutMe.Paragraphs": [
-        "Hello I am  a passionate <span class='underline'>Full Stack .NET developer</span>, I have a 1 year of Work Experience . I  do Frontend development using <span class='underline'>Angular </span>, and covering backend developer roles with <span class='underline'>ASP.NET Core MVC & API</span>. I am Passionate about  Collaborating with Teams.",
-        "My skills also include implementing Clean,Robust,Reusable and High Quality Code.",
-        "Some of the technologies that I have learnt and worked on include: HTML,CSS,Javascript,Typescript,Angular,ASP.NET Core MVC & API,SQL Server, Git,Github,Bootstrap,Material UI,Scrum,REST API,Postman,Visual Studio,Visual Studio Code,SQL S"
-    ],
+   "AboutMe.Paragraphs": [
+  "Hi there! I’m Aniket Joshi, a Full Stack .NET Developer who loves bringing ideas to life with clean code, powerful APIs, and pixel-perfect Angular interfaces. With 1.5+ years of hands-on experience, I’ve built and deployed secure, scalable applications that don’t just work—they wow.\n\nWhile I speak fluent C#, TypeScript, and SQL, I’m also learning to listen to what systems aren’t saying—because I’m diving deep into cybersecurity. I enjoy breaking things in labs (ethically, of course) just to understand how to make them stronger in real life.\n\nI believe great software isn’t just built—it’s secured, streamlined, and made with intention. Whether it’s CI/CD pipelines in Azure or tracking down vulnerabilities, I’m all about building tech that performs and protects.\n\nLet’s build something great—and secure—together."
+],
+
 
  
     "Experience.Title": "Experience",
-    "Experience.Jobs": [{
-            "Tab": "Feedough ",
+    "Experience.Jobs": [     
+               {
+            "Tab":"Decisivedge LLC.",
+            "Title": "Junior Dotnet developer",
+            "Date": "April 2025 - July 2025",
+            "Description":[
+                "Developed and maintained enterprise-grade modules using .NET and Angular as part of an agile delivery team.",
+                "Collaborated with cross-functional teams to address UAT bugs and support client-facing deliverables.",
+                "Engagement ended post-probation due to internal project restructuring and prioritization shifts."
+            ]
+        },
+        {
+            "Tab":"ThinkAI Corporation Pvt Ltd.",
+            "Title": "Dotnet developer",
+            "Date": "March 2024 - February 2025",
+            "Description":[
+                "Optimized deployment processes by integrating automated CI/CD pipelines to multiple environments ,improving deployment speed by 50%.",
+                "Developed and led the development of Kousa's shipping management platform, utilizing .NET 7 and Angular.",
+                "Enabled real-time tracking and management of container shipments across global supply chains.",
+                "Implemented robust security measures, including Azure AD B2C authentication and encrypted storage for sensitive shipping documents."
+            ]
+        }, 
+        {
+            "Tab":"SSK TechMetrics Pvt Ltd.",
+            "Title": "Fullstack .Net developer",
+            "Date": "December 2023 - September 2023",
+            "Description":[
+                "Collaborated with senior developers to design and implement responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.",
+                "Developed efficient and maintainable back-end components using C# and the .NET framework, ensuring seamless integration with front-end functionalities.",
+                "Actively participated in code reviews, providing constructive feedback and implementing suggested improvements to enhance the overall code quality.",
+                "Contributed to the development of RESTful APIs to facilitate smooth communication between the front-end and back-end systems."
+            ]
+        }, 
+        {
+            "Tab": "Feedough.Com",
             "Title": "Fullstack Javascript developer",
             "Date": "March 2022 - June 2022",
             "Description": [
@@ -31,23 +63,13 @@
               "Planning and implementing features according to the product team.",
               "Tech Stack: Angular,HTML,CSS, Node ,MongoDb, Git,Github,"
             ]
-        },         
-        {
-            "Tab":"SSK TechMetrics",
-            "Title": "Fullstack .Net developer",
-            "Date": "January 2023 - September 2023",
-            "Description":[
-                "Collaborated with senior developers to design and implement responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.",
-                "Developed efficient and maintainable back-end components using C# and the .NET framework, ensuring seamless integration with front-end functionalities.",
-                "Actively participated in code reviews, providing constructive feedback and implementing suggested improvements to enhance the overall code quality.",
-                "Contributed to the development of RESTful APIs to facilitate smooth communication between the front-end and back-end systems."
-            ]
         }
     ],
 
     "FeatureProjects.Title": "My projects",
     "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [{
+    "FeatureProjects.Projects": [
+        {
             "Title": "CryptoSteller",
             "Description": "A Crypto Currency app , <span class='underline'>with realtime weather by city names</span>. It tracks realtime crypto currency prices and their exchange rates with USD .",
             "imgs": [
@@ -55,8 +77,18 @@
                 "assets/images/cryptostelller-news.png",
                 "assets/images/cryptostelller-prices.png"
             ],
-            "Technologies": ["Html", "Angular", "Asp.Net API","CSS", "Angular Material", "RxJS","Bootstrap"]
-        }
+            "Technologies": ["Html", "Angular", "Asp.Net API","CSS", "Angular Material", "RxJS","Bootstrap"] 
+        },
+        {
+            "Title": "ECourtFlow",
+            "Description": "A Differentiated Case Flow Management (DCM) system designed to streamline and optimize legal workflows. It provides tailored dashboards for administrators, clerks, and judges to enhance operational efficiency within legal institutions.",
+            "imgs": [
+                "assets/images/cryptosteller-weather.png",
+                "assets/images/cryptostelller-news.png",
+                "assets/images/cryptostelller-prices.png"
+            ],
+            "Technologies": ["Html", "Angular", "Asp.Net API","CSS", "Angular Material", "RxJS","Bootstrap"] 
+        } 
       
         
     ],

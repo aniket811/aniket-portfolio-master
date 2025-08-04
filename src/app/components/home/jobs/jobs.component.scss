@@ -70,16 +70,16 @@
 
 .jobs{
 
-    max-width: 700px;
-    margin: auto;
-
+    margin: 5%; 
+    
+    
     .title-tab-content{
         color: $LightestSlate;
         font-size: 22px;
         font-weight: 500;
         margin-bottom: 5px;
-
-        .company-tab-content{
+        margin-left: 20%;
+        .company-tab-content{  
             color: $Green;
         }
     }
@@ -94,6 +94,8 @@
         letter-spacing: 0.05em;
         color: $LightSlate;
         margin-bottom: 30px;
+        margin-left: 20%;
+
     }
     
     .job-description{
@@ -101,7 +103,7 @@
         padding-left: 30px;
         margin-bottom: 10px;
         font-size: 18px;
-
+        margin-left: 20%;
         &:before {
             content: '▹';
             position: absolute;
