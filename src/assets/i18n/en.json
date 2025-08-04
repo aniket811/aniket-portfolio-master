@@ -8,7 +8,7 @@
     "Header.cvName": "Aniket_Joshi_FullStack_Net_Developer.pdf",
 
     "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "I have  <span class='underline'>1.5 years of experience</span> in  developing REST API's using ASP.NET Core API & MVC, Angular to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> and  <span class='underline'>ASP.NET</span> applying good practices and development standards.",
+   "Banner.Description": "I have <span class='underline'>1.5 years of experience</span> building RESTful APIs using ASP.NET Core (API and MVC) and developing responsive web interfaces with Angular. I'm passionate about writing clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>ASP.NET</span>, always aiming for best practices and high development standards.",
     "Banner.ActionBtn": "Get in touch",
 
     "AboutMe.Title": "About me",
