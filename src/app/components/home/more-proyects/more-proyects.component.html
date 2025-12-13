@@ -44,3 +44,62 @@
         </div>
     </div>
 </section>
+<section class="section certification" id="certifications">
+    <div class="container">
+        <div class="section-box">
+            <div class="">
+                <h3 class="section-title">
+                    <span class="n-section-title">05.</span> {{"Certification.Title" | translate}}
+                </h3>
+            </div>
+
+            <div class="mt-5">
+                <div class="row p-0">
+
+                    <div *ngFor='let cert of "Certification.Items"  | translate; let i = index'
+                         class="col-12 col-md-6 col-lg-6 col-xl-4 proyect-col"
+                         data-aos="fade-up"
+                         data-aos-duration="1000"  (click)="openCert(cert.Link)" style="cursor:pointer;margin-bottom:3%">
+
+                        <div class="more-proyect-box">
+                           <div class="row w-100 text-left m-0 p-0 cert-header">
+
+                                <!-- Icon -->
+                                <div class="col-6 p-0 cert-icon">
+    <i class="fas fa-certificate"></i>  
+</div>
+
+
+
+                                <!-- Right Side (Year / Issuer) -->
+<div class="col-6 d-flex p-0 justify-content-end cert-year">
+    {{ cert.Year }}
+</div>
+                                <!-- Title -->
+                                <h5 class="other-proyect-title mt-4">
+                                    {{ cert.Title }}
+                                </h5>
+
+                                <!-- Description -->
+                                <p class="other-proyect-description">
+                                    {{ cert.Description }}
+                                </p>
+
+                            </div>
+
+                            <!-- Footer -->
+                            <div>
+                              <div class="cert-issuer">
+  <span class="underline">{{ cert.Issuer }}</span>
+</div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

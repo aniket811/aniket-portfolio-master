@@ -1,121 +1,152 @@
 {
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.Item5": "Certifications",
 
-    "Header.Item1" : "About me",
-    "Header.Item2" : "Experience",
-    "Header.Item3" : "Projects",
-    "Header.Item4" : "Contact",
-    "Header.cvBtn" : "Resume",
-    "Header.cvName": "Aniket_Joshi_FullStack_Net_Developer.pdf",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Aniket_Joshi_FullStack_Net_Developer.pdf",
 
-    "Banner.Pretitle": "Hello! My name is",
-   "Banner.Description": "I have <span class='underline'>1.5 years of experience</span> building RESTful APIs using ASP.NET Core (API and MVC) and developing responsive web interfaces with Angular. I'm passionate about writing clean, reusable, and scalable code in <span class='underline'>Angular</span> and <span class='underline'>ASP.NET</span>, always aiming for best practices and high development standards.",
-    "Banner.ActionBtn": "Get in touch",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I have <span class='underline'>1.8+ years of experience</span> building secure, scalable web applications using <span class='underline'>ASP.NET Core</span> (Web API & MVC) and crafting responsive, high-performance interfaces with <span class='underline'>Angular</span>. I focus on clean architecture, best coding practices, and strengthening applications with <span class='underline'>security-first development</span> and cloud-ready deployments.",
+  "Banner.ActionBtn": "Get in touch",
 
-    "AboutMe.Title": "About me",
-   "AboutMe.Paragraphs": [
-  "Hi there! I’m Aniket Joshi, a Full Stack .NET Developer who loves bringing ideas to life with clean code, powerful APIs, and pixel-perfect Angular interfaces. With 1.5+ years of hands-on experience, I’ve built and deployed secure, scalable applications that don’t just work—they wow.\n\nWhile I speak fluent C#, TypeScript, and SQL, I’m also learning to listen to what systems aren’t saying—because I’m diving deep into cybersecurity. I enjoy breaking things in labs (ethically, of course) just to understand how to make them stronger in real life.\n\nI believe great software isn’t just built—it’s secured, streamlined, and made with intention. Whether it’s CI/CD pipelines in Azure or tracking down vulnerabilities, I’m all about building tech that performs and protects.\n\nLet’s build something great—and secure—together."
-],
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "Hi! I’m Aniket Joshi, a Full Stack .NET Developer with a strong focus on building reliable, secure, and scalable applications. With over 1.8 years of professional experience, I’ve worked across the full development lifecycle from designing APIs to deploying production-ready Angular applications on Azure.\n\nMy core expertise lies in ASP.NET Core, Angular, and SQL Server, where I emphasize clean code, performance optimization, and maintainability. Alongside development, I actively explore application security, applying OWASP best practices and secure coding standards to reduce vulnerabilities.\n\nI enjoy solving real-world problems, collaborating with cross-functional teams, and continuously improving systems through refactoring, automation, and CI/CD pipelines. My goal is to build software that not only works efficiently but is also resilient, secure, and future-ready."
+  ],
 
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+  {
+    "Tab": "Freelance Development",
+    "Title": "Freelance .NET Developer",
+    "Date": "August 2025 - November 2025",
+    "Description": [
+      "Developed small to mid-scale RESTful APIs using ASP.NET Core to strengthen backend architecture and performance.",
+      "Built practice and deployment environments using Docker, NGINX, and GitHub Actions.",
+      "Performed basic web application security testing using OWASP ZAP and Nmap.",
+      "Focused on improving secure coding practices while preparing for the CEH certification."
+    ]
+  },
+    {
+      "Tab": "Decisivedge LLC.",
+      "Title": "Junior Dotnet developer",
+      "Date": "April 2025 - July 2025",
+      "Description": [
+        "Worked on enterprise-level modules using ASP.NET Core and Angular within an Agile development environment.",
+        "Resolved 50+ QA and UAT issues, contributing to improved application stability and reduced production defects.",
+        "Collaborated closely with QA, product owners, and senior developers to ensure timely sprint deliveries.",
+        "Engagement concluded as the project was put on hold due to internal restructuring."
+      ]
+    },
+    {
+      "Tab": "ThinkAI Corporation Pvt Ltd.",
+      "Title": "Dotnet developer",
+      "Date": "March 2024 - February 2025",
+      "Description": [
+        "Led backend and frontend development for a global shipping management system using .NET 7 and Angular.",
+        "Enabled real-time tracking and management of 1,000+ container shipments across global supply chains.",
+        "Integrated Azure AD B2C authentication and encrypted document storage, reducing security incidents by 40%.",
+        "Configured Azure Web Application Firewall (WAF) to mitigate DDoS and injection attacks.",
+        "Implemented automated CI/CD pipelines in Azure DevOps, reducing deployment time by 50%."
+      ]
+    }
+  ],
 
- 
-    "Experience.Title": "Experience",
-    "Experience.Jobs": [     
-               {
-            "Tab":"Decisivedge LLC.",
-            "Title": "Junior Dotnet developer",
-            "Date": "April 2025 - July 2025",
-            "Description":[
-                "Developed and maintained enterprise-grade modules using .NET and Angular as part of an agile delivery team.",
-                "Collaborated with cross-functional teams to address UAT bugs and support client-facing deliverables.",
-                "Engagement ended post-probation due to internal project restructuring and prioritization shifts."
-            ]
-        },
-        {
-            "Tab":"ThinkAI Corporation Pvt Ltd.",
-            "Title": "Dotnet developer",
-            "Date": "March 2024 - February 2025",
-            "Description":[
-                "Optimized deployment processes by integrating automated CI/CD pipelines to multiple environments ,improving deployment speed by 50%.",
-                "Developed and led the development of Kousa's shipping management platform, utilizing .NET 7 and Angular.",
-                "Enabled real-time tracking and management of container shipments across global supply chains.",
-                "Implemented robust security measures, including Azure AD B2C authentication and encrypted storage for sensitive shipping documents."
-            ]
-        }, 
-        {
-            "Tab":"SSK TechMetrics Pvt Ltd.",
-            "Title": "Fullstack .Net developer",
-            "Date": "December 2023 - September 2023",
-            "Description":[
-                "Collaborated with senior developers to design and implement responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.",
-                "Developed efficient and maintainable back-end components using C# and the .NET framework, ensuring seamless integration with front-end functionalities.",
-                "Actively participated in code reviews, providing constructive feedback and implementing suggested improvements to enhance the overall code quality.",
-                "Contributed to the development of RESTful APIs to facilitate smooth communication between the front-end and back-end systems."
-            ]
-        }, 
-        {
-            "Tab": "Feedough.Com",
-            "Title": "Fullstack Javascript developer",
-            "Date": "March 2022 - June 2022",
-            "Description": [
-              "Creation and Implementation of features to detect Plagarism  and Trending topic for blogging.",
-              "Creation of automated text generation for specified topic name using AI.",
-              "Collaborated with the Team of Developers to write clean and robust code.",
-              "Planning and implementing features according to the product team.",
-              "Tech Stack: Angular,HTML,CSS, Node ,MongoDb, Git,Github,"
-            ]
-        }
-    ],
+  "FeatureProjects.Title": "My projects",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "CryptoSteller",
+      "Description": "An AI-powered cryptocurrency analytics platform providing <span class='underline'>real-time crypto prices</span>, market insights, and automated summaries. Includes secure authentication and interactive dashboards for tracking market trends.",
+      "imgs": [
+        "assets/images/cryptosteller-weather.png",
+        "assets/images/cryptostelller-news.png",
+        "assets/images/cryptostelller-prices.png"
+      ],
+      "Technologies": ["Angular", "TypeScript", "ASP.NET API", "Firebase", "RxJS", "Angular Material"]
+    },
+    {
+      "Title": "ECourtFlow",
+      "Description": "A <span class='underline'>Differentiated Case Flow Management (DCM)</span> system designed to streamline judicial workflows with role-based dashboards for judges, clerks, and administrators.",
+      "imgs": [
+        "assets/images/ecourtflow-homepage.png",
+        "assets/images/ecourtflow-types.png",
+        "assets/images/ecourtflow-faqs.png"
+      ],
+      "Technologies": ["Angular", "Node JS", "Firebase", "MongoDB", "Angular Material"]
+    }
+  ],
 
-    "FeatureProjects.Title": "My projects",
-    "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [
-        {
-            "Title": "CryptoSteller",
-            "Description": "A Crypto Currency app , <span class='underline'>with realtime weather by city names</span>. It tracks realtime crypto currency prices and their exchange rates with USD .",
-            "imgs": [
-                "assets/images/cryptosteller-weather.png",
-                "assets/images/cryptostelller-news.png",
-                "assets/images/cryptostelller-prices.png"
-            ],
-            "Technologies": ["Html", "Angular", "Asp.Net API","CSS", "Angular Material", "RxJS","Bootstrap"] 
-        },
-        {
-            "Title": "ECourtFlow",
-            "Description": "A <span class='underline'> Differentiated Case Flow Management (DCM) </span>  system designed to streamline and optimize legal workflows. It provides tailored dashboards for administrators, clerks, and judges to enhance operational efficiency within legal institutions.",
-            "imgs": [
-                "assets/images/ecourtflow-homepage.png",
-                "assets/images/ecourtflow-types.png",
-                "assets/images/ecourtflow-faqs.png"
-            ],
-            "Technologies": ["Html", "Angular", "Node JS","CSS", "Angular Material", "Firebase","MongoDB"] 
-        } 
-      
-        
-    ],
+  "OtherProjects.Title": "More projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "ECourtFlow",
+      "Description": "A judiciary case management system aimed at reducing hearing delays and improving case transparency for advocates and judges.",
+      "ghLink": "https://github.com/aniket811/eCourtFlow.git",
+      "demoLink": "https://hackathon-n2ci.vercel.app/",
+      "Technologies": ["Angular", "Angular Material", "RxJS", "Node JS", "MongoDB"]
+    },
+    {
+      "Title": "SocialShare",
+      "Description": "A community-driven platform enabling developers to collaborate, share knowledge, and solve coding challenges efficiently.",
+      "ghLink": "https://github.com/aniket811/socialshare.git",
+      "demoLink": "https://socialshare-29eab.web.app/",
+      "Technologies": ["Angular", "Firebase", "Firestore", "SASS", "Reactive Forms"]
+    }
+  ],
+"Achievement.Title": "Achievements",
+"Achievement.Items": [
+  {
+    "Title": "Certificate of Appreciation – CleverGround (2025)",
+    "Description": "Received a Certificate of Appreciation from CleverGround for responsibly disclosing critical security vulnerabilities identified during independent security testing, helping improve the organization’s overall security posture."
+  }
+ ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I’m always open to discussing new opportunities, projects, or collaborations. If you’re looking for a passionate Full Stack .NET Developer who values clean code and secure systems, feel free to reach out.",
+  "Contact.Btn": "Say Hello", 
+  "Certification.Title": "Certifications",
+"Certification.Items": [
+  {
+    "Title": "Certified Ethical Hacker (CEH)",
+    "Issuer": "EC-Council",
+    "Year": "2025",
+    "Description": "Demonstrated hands-on knowledge of ethical hacking, vulnerability assessment, penetration testing, OWASP Top 10, network security, and secure application practices.", 
+    "Link":"https://drive.google.com/file/d/1gUUzQj_3cOVdy2CScfzpZnSD539J0XT5/view?usp=sharing"
+  
+},
+  {
+    "Title": "Full Stack .NET Developer",
+    "Issuer": "Naresh IT, Hyderabad",
+    "Year": "2023",
+    "Description": "Comprehensive training in C#, ASP.NET Core, MVC, Web API, SQL Server, and frontend development with Angular.",
+    "Link":"https://drive.google.com/file/d/1gUUzQj_3cOVdy2CScfzpZnSD539J0XT5/view?usp=sharing"
+  },
+  {
+    "Title": "Advanced C#: Object-Oriented Programming",
+    "Issuer": "LinkedIn Learning",
+    "Year": "2025",
+    "Description": "Advanced understanding of C# language features, OOP principles, clean code practices, and application design patterns.", 
+    "Link":"https://www.linkedin.com/learning/certificates/1e625e42494b2f934ef3d79dbef491cb432d1d4ce79b3bf80b5a076821e7414c"
+  },
+  {
+    "Title": "Secure Software Development",
+    "Issuer": "LinkedIn Learning",
+    "Year": "2025",
+    "Description": "Focused on secure coding standards, threat modeling, vulnerability mitigation, and building resilient applications.",
+    "Link":"https://www.linkedin.com/learning/certificates/d9e7fd9993b938d00b87473f9dc8b919f16e3d719511c573c66ef553a2737f58?trk=share_certificate"
+  },
+ {
+  "Title": "Certificate of Appreciation – CleverGround",
+  "Issuer": "CleverGround",
+  "Year": "2025",
+"Description": "Recognized by CleverGround for responsibly disclosing critical security vulnerabilities and supporting secure, ethical development practices.",
+"Link": "https://drive.google.com/file/d/1A_kI0N8pPSfh2sikw2pyhGAoJVXWo3bu/view?usp=sharing"
+}
 
-
-
-    "OtherProjects.Title": "More projects",
-    "OtherProjects.Projects": [{
-            "Title": "ECourtFlow",
-            "Description": "ECourtflow is a dynamic judiciary management system for both advocates and judges to reduce unnecessary delay from hearing and smooth delievering of justice.",
-            "ghLink": "https://github.com/aniket811/eCourtFlow.git",
-            "demoLink": "https://hackathon-n2ci.vercel.app/",
-            "Technologies": ["Angular","Angular Material", "RxJs", "API", "Bootstrap","Node JS","Mongo DB"]
-        },
-        {
-            "Title": "SocialShare",
-            "Description": "The platform fosters a collaborative environment where the collective knowledge of the community can be leveraged to troubleshoot and overcome coding challenges.             ",
-            "ghLink": "https://github.com/aniket811/socialshare.git",
-            "demoLink": "https://socialshare-29eab.web.app/",
-            "Technologies": ["Angular","Firebase","Firestore", "SASS", "CSS GRID", "Reactive form"]
-        }
-    
-    ],
-    "Contact.Pretitle": "What’s Next",
-    "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. ",
-    "Contact.Btn": "Say Hello"
-
+]
 
 }

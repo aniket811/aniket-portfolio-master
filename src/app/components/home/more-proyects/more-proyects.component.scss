@@ -107,3 +107,43 @@
         }
     }
 }
+
+/* Certification alignment fix */
+.cert-header {
+  min-height: 60px;
+  align-items: center;
+}
+
+.cert-icon i {
+  font-size: 36px;
+  color: #64ffda;
+}
+
+.cert-year {
+  font-size: 14px;
+  color: #64ffda;
+  align-items: center;
+}
+
+/* Force equal card height */
+.more-proyect-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Push issuer to bottom consistently */
+.more-proyect-box > div:last-child {
+  margin-top: auto;
+}
+/* Certification issuer alignment */
+.cert-issuer {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #64ffda;
+}
+
+/* Tighten description spacing */
+.other-proyect-description {
+  margin-bottom: 8px;
+}

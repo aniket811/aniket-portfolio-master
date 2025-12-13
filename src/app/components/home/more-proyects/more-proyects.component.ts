@@ -28,6 +28,8 @@ export class MoreProyectsComponent implements OnInit {
         return
       }
       window.open(route, '_blank');
+    } 
+    openCert(link:string){
+       window.open(link, '_blank');
     }
-
 }

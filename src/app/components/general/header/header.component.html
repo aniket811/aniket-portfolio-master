@@ -20,6 +20,10 @@
                 <a ngbNavLink (click)='scroll("contact")'><span class='nav-number'>04. </span> <span class="underline nav-text"> {{"Header.Item4" | translate}}</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
+            <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
+                <a ngbNavLink (click)='scroll("certifications")'><span class='nav-number'>05. </span> <span class="underline nav-text"> {{"Header.Item5" | translate}}</span></a>
+                <ng-template ngbNavContent>Second content</ng-template>
+            </li>
             <li ngbNavItem>
                 <a ngbNavLink (click)="downloadCV()" class="main-btn cv-btn" ngbNavLink>
                     Resume
@@ -69,6 +73,11 @@
                       <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
                         <a (click)='scroll("proyects")'>
                             <span>04. </span> {{"Header.Item4" | translate}}
+                        </a>
+                      </li>
+                       <li (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
+                        <a (click)='scroll("certifications")'>
+                            <span>05. </span> {{"Header.Item5" | translate}}
                         </a>
                       </li>
                       <li>
