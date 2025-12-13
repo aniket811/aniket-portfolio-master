@@ -118,13 +118,13 @@
     "Link":"https://drive.google.com/file/d/1gUUzQj_3cOVdy2CScfzpZnSD539J0XT5/view?usp=sharing"
   
 },
-  {
-    "Title": "Full Stack .NET Developer",
-    "Issuer": "Naresh IT, Hyderabad",
-    "Year": "2023",
-    "Description": "Comprehensive training in C#, ASP.NET Core, MVC, Web API, SQL Server, and frontend development with Angular.",
-    "Link":"https://drive.google.com/file/d/1gUUzQj_3cOVdy2CScfzpZnSD539J0XT5/view?usp=sharing"
-  },
+{
+  "Title": "Certificate of Appreciation – CleverGround",
+  "Issuer": "CleverGround",
+  "Year": "2025",
+"Description": "Recognized by CleverGround for responsibly disclosing critical security vulnerabilities and supporting secure, ethical development practices.",
+"Link": "https://drive.google.com/file/d/1A_kI0N8pPSfh2sikw2pyhGAoJVXWo3bu/view?usp=sharing"
+},
   {
     "Title": "Advanced C#: Object-Oriented Programming",
     "Issuer": "LinkedIn Learning",
@@ -138,14 +138,8 @@
     "Year": "2025",
     "Description": "Focused on secure coding standards, threat modeling, vulnerability mitigation, and building resilient applications.",
     "Link":"https://www.linkedin.com/learning/certificates/d9e7fd9993b938d00b87473f9dc8b919f16e3d719511c573c66ef553a2737f58?trk=share_certificate"
-  },
- {
-  "Title": "Certificate of Appreciation – CleverGround",
-  "Issuer": "CleverGround",
-  "Year": "2025",
-"Description": "Recognized by CleverGround for responsibly disclosing critical security vulnerabilities and supporting secure, ethical development practices.",
-"Link": "https://drive.google.com/file/d/1A_kI0N8pPSfh2sikw2pyhGAoJVXWo3bu/view?usp=sharing"
-}
+  }
+ 
 
 ]
 
