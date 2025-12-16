@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild, HostListener, AfterViewInit } from '@angular/core';
+import { Component, OnInit, ViewChild, HostListener, AfterViewInit, ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import {trigger, style, query, transition, stagger, animate } from '@angular/animations'
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
@@ -7,6 +7,7 @@ import { FormControl } from '@angular/forms';
 import { LanguageService } from 'src/app/services/language/language.service';
 import { ThisReceiver } from '@angular/compiler';
 import { HttpClient } from '@angular/common/http';
+import { NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
@@ -37,7 +38,6 @@ export class HeaderComponent implements OnInit {
   pageYPosition: number;
   languageFormControl: FormControl= new FormControl();
   cvName: string = "";
-
   constructor(
     private router: Router,
     public analyticsService: AnalyticsService,
@@ -101,7 +101,8 @@ export class HeaderComponent implements OnInit {
         this.pageYPosition=window.pageYOffset
     }
 
-    changeLanguage(language: string) {
+    changeLanguage(language: string,dropdown:any) {
       this.languageFormControl.setValue(language);
+      dropdown.close()
     }
 }

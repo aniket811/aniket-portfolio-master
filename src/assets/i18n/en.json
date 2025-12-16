@@ -16,7 +16,7 @@
   "AboutMe.Paragraphs": [
     "Hi! I’m Aniket Joshi, a Full Stack .NET Developer with a strong focus on building reliable, secure, and scalable applications. With over 1.8 years of professional experience, I’ve worked across the full development lifecycle from designing APIs to deploying production-ready Angular applications on Azure.\n\nMy core expertise lies in ASP.NET Core, Angular, and SQL Server, where I emphasize clean code, performance optimization, and maintainability. Alongside development, I actively explore application security, applying OWASP best practices and secure coding standards to reduce vulnerabilities.\n\nI enjoy solving real-world problems, collaborating with cross-functional teams, and continuously improving systems through refactoring, automation, and CI/CD pipelines. My goal is to build software that not only works efficiently but is also resilient, secure, and future-ready."
   ],
-
+  "MyName.Title":"Aniket Joshi",
   "Experience.Title": "Experience",
   "Experience.Jobs": [
   {
