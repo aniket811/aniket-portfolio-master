@@ -127,7 +127,13 @@
       "Year": "2025",
       "Description": "महत्वपूर्ण सिक्योरिटी कमजोरियों की जिम्मेदारी से जानकारी साझा करने और सुरक्षित, एथिकल डेवलपमेंट प्रैक्टिसेस को सपोर्ट करने के लिए CleverGround द्वारा सम्मानित।",
       "Link": "https://drive.google.com/file/d/1A_kI0N8pPSfh2sikw2pyhGAoJVXWo3bu/view?usp=sharing"
-    },
+    }, {
+  "Title": "एडवेंट ऑफ़ साइबर",
+  "Issuer": "TryHackMe",
+  "Year": "2025",
+  "Description": "TryHackMe द्वारा आयोजित Advent of Cyber को सफलतापूर्वक पूरा किया, जिसमें दैनिक प्रैक्टिकल चुनौतियों के माध्यम से नेटवर्क सुरक्षा, वेब एक्सप्लॉइटेशन, मालवेयर विश्लेषण और डिफेंसिव सिक्योरिटी जैसे वास्तविक-दुनिया के साइबर सुरक्षा कॉन्सेप्ट्स पर व्यावहारिक अनुभव प्राप्त किया।",
+  "Link": "https://drive.google.com/file/d/1zaCBz1aDZhrOLmHh_G4Y9psy4ZI_dGi0/view?usp=sharing"
+}, 
     {
       "Title": "एडवांस्ड C#: ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग",
       "Issuer": "LinkedIn Learning",
