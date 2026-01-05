@@ -127,9 +127,19 @@
 
 /* Force equal card height */
 .more-proyect-box {
+  border: 1px solid rgba(88, 255, 224, 0.25); /* subtle neon border */
+  border-radius: 12px;
+  padding: 24px;
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.more-proyect-box:hover {
+  border-color: #58ffe0;
+  box-shadow: 0 0 12px rgba(88, 255, 224, 0.35);
+  transform: translateY(-4px);
 }
 
 /* Push issuer to bottom consistently */
@@ -146,4 +156,23 @@
 /* Tighten description spacing */
 .other-proyect-description {
   margin-bottom: 8px;
+   display: -webkit-box;
+  -webkit-line-clamp: 5;   /* keep same height */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+ .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.tech-stack span {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(0, 255, 200, 0.08);
+  color: #5ef0d3;
+  white-space: nowrap;
 }

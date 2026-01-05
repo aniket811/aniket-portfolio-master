@@ -62,30 +62,25 @@
                          data-aos-duration="1000"  (click)="openCert(cert.Link)" style="cursor:pointer;margin-bottom:3%">
 
                         <div class="more-proyect-box">
-                           <div class="row w-100 text-left m-0 p-0 cert-header">
+                       <div class="row w-100 text-left m-0 p-0 cert-header">
+  <!-- Icon -->
+  <div class="col-6 p-0 cert-icon">
+    <i class="fas fa-certificate"></i>
+  </div>
 
-                                <!-- Icon -->
-                                <div class="col-6 p-0 cert-icon">
-    <i class="fas fa-certificate"></i>  
-</div>
-
-
-
-                                <!-- Right Side (Year / Issuer) -->
-<div class="col-6 d-flex p-0 justify-content-end cert-year">
+  <!-- Year -->
+  <div class="col-6 d-flex p-0 justify-content-end cert-year">
     {{ cert.Year }}
+  </div>
 </div>
-                                <!-- Title -->
-                                <h5 class="other-proyect-title mt-4">
-                                    {{ cert.Title }}
-                                </h5>
 
-                                <!-- Description -->
-                                <p class="other-proyect-description">
-                                    {{ cert.Description }}
-                                </p>
+<h5 class="other-proyect-title mt-4">
+  {{ cert.Title }}
+</h5>
 
-                            </div>
+<p class="other-proyect-description">
+  {{ cert.Description }}
+</p>
 
                             <!-- Footer -->
                             <div>

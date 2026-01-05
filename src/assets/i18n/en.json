@@ -83,6 +83,34 @@
   "OtherProjects.Title": "More projects",
   "OtherProjects.Projects": [
     {
+  "Title": "Cryptosteller",
+  "Description": "An Angular dashboard application that combines real-time weather forecasts and cryptocurrency news, helping users track city weather conditions and stay updated with the crypto market in one place.",
+  "ghLink": "https://github.com/aniket811/cryptosteller.git",
+  "demoLink": "",
+  "Technologies": [
+    "Angular 18",
+    "TypeScript",
+    "Bootstrap 5",
+    "Custom CSS",
+    "OpenWeatherMap API",
+    "Crypto News API"
+  ]
+},{
+  "Title": "Intrusion Detection System (IDS) – Packet Filtering",
+  "Description": "A lightweight Intrusion Detection System designed to monitor live network traffic, filter packets based on predefined rules, and detect suspicious activities using signature and anomaly-based techniques. The system supports real-time packet sniffing, rule-based traffic control, and centralized logging for security analysis.",
+  "ghLink": "https://github.com/aniket811/IDS-Packet-Filter.git",
+  "demoLink": "",
+  "Technologies": [
+    "Python",
+    "Scapy",
+    "Socket Programming",
+    "Logging",
+    "PyShark",
+    "Wireshark"
+  ]
+}
+, 
+    {
       "Title": "ECourtFlow",
       "Description": "A judiciary case management system aimed at reducing hearing delays and improving case transparency for advocates and judges.",
       "ghLink": "https://github.com/aniket811/eCourtFlow.git",
