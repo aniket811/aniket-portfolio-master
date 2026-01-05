@@ -9,7 +9,7 @@
   "Header.cvName": "Aniket_Joshi_CV_2025.pdf",
 
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I have <span class='underline'>1.8+ years of experience</span> building secure, scalable web applications using <span class='underline'>ASP.NET Core</span> (Web API & MVC) and crafting responsive, high-performance interfaces with <span class='underline'>Angular</span>. I focus on clean architecture, best coding practices, and strengthening applications with <span class='underline'>security-first development</span> and cloud-ready deployments.",
+  "Banner.Description": "I have <span class='underline'>1.5+ years of experience</span> building secure, scalable web applications using <span class='underline'>ASP.NET Core</span> (Web API & MVC) and crafting responsive, high-performance interfaces with <span class='underline'>Angular</span>. I focus on clean architecture, best coding practices, and strengthening applications with <span class='underline'>security-first development</span> and cloud-ready deployments.",
   "Banner.ActionBtn": "Get in touch",
 
   "AboutMe.Title": "About me",
@@ -19,17 +19,6 @@
   "MyName.Title":"Aniket Joshi",
   "Experience.Title": "Experience",
   "Experience.Jobs": [
-  {
-    "Tab": "Freelance Development",
-    "Title": "Freelance .NET Developer",
-    "Date": "August 2025 - November 2025",
-    "Description": [
-      "Developed small to mid-scale RESTful APIs using ASP.NET Core to strengthen backend architecture and performance.",
-      "Built practice and deployment environments using Docker, NGINX, and GitHub Actions.",
-      "Performed basic web application security testing using OWASP ZAP and Nmap.",
-      "Focused on improving secure coding practices while preparing for the CEH certification."
-    ]
-  },
     {
       "Tab": "Decisivedge LLC.",
       "Title": "Junior Dotnet developer",
